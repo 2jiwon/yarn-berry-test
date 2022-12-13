@@ -3,7 +3,7 @@ name: CI-wanted-app
 on:
   push:
     branches:
-      - 6-deploy-github-actions
+      - main
     paths:
       - 'apps/wanted/**'
 
