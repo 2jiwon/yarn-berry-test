@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import { sayHello } from '@wanted/lib'
+import { Button } from '@wanted/ui'
 
 export default function Home() {
   return (
